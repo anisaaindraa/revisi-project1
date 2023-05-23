@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Programming Language</h1>
+      <nav>
+        <a href="https://en.wikipedia.org/wiki/HTML">HTML</a> |
+        <a href="https://en.wikipedia.org/wiki/CSS">CSS</a>
+      </nav>
+    </header>
+    <main>
+      <aside>
+        <h4>Biography Author</h4>
+        <table border="1" style="width: 500px">
+          <tr>
+            <td>NAMA</td>
+            <td>ANISYA INDRA WIJAYA</td>
+          </tr>
+          <tr>
+            <td>NIM</td>
+            <td>11211014</td>
+          </tr>
+          <tr>
+            <td>ALAMAT</td>
+            <td>BALIKPAPAN</td>
+          </tr>
+          <tr>
+            <td>INSTAGRAM</td>
+            <td>
+              <a
+                href="https://instagram.com/anisaaindraa?igshid=MzNlNGNkZWQ4Mg=="
+                >anisaaindraa</a
+              >
+            </td>
+          </tr>
+          <tr></tr>
+        </table>
+      </aside>
+      <div>
+        <div id="content">
+          <section id="section1">
+            <p style="text-align: justify">
+              A programming language is a system of notation for writing
+              computer programs.[1] Most programming languages are text-based
+              formal languages, but they may also be graphical. They are a kind
+              of computer language. The description of a programming language is
+              usually split into the two components of syntax (form) and
+              semantics (meaning), which are usually defined by a formal
+              language.
+            </p>
+          </section>
+          <section id="section2">
+            <article id="html">
+              <h1>HTML</h1>
+              <p style="text-align: justify">
+                The HyperText Markup Language or HTML is the standard markup
+                language for documents designed to be displayed in a web
+                browser. It is often assisted by technologies such as Cascading
+                Style Sheets (CSS) and scripting languages such as JavaScript.
+                Web browsers receive HTML documents from a web server or from
+                local storage and render the documents into multimedia web
+                pages. HTML describes the structure of a web page semantically
+                and originally included cues for its appearance.
+              </p>
+              <img
+                class="tengah"
+                src="gambar1.png"
+                alt="Gambar 1"
+                width="400" />
+            </article>
+            <article id="css">
+              <h1>CSS</h1>
+              <p style="text-align: justify">
+                Cascading Style Sheets (CSS) is a style sheet language used for
+                describing the presentation of a document written in a markup
+                language such as HTML or XML (including XML dialects such as
+                SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the
+                World Wide Web, alongside HTML and JavaScript.[2] CSS is
+                designed to enable the separation of content and presentation,
+                including layout, colors, and fonts.[3] This separation can
+                improve content accessibility; provide more flexibility and
+                control in the specification of presentation characteristics;
+                enable multiple web pages to share formatting by specifying the
+                relevant CSS in a separate .css file, which reduces complexity
+                and repetition in the structural content; and enable the .css
+                file to be cached to improve the page load speed between the
+                pages that share the file and its formatting. Separation of
+                formatting and content also makes it feasible to present the
+                same markup page in different styles for different rendering
+                methods, such as on-screen, in print, by voice (via speech-based
+                browser or screen reader), and on Braille-based tactile devices.
+                CSS also has rules for alternate formatting if the content is
+                accessed on a mobile device.[4] The name cascading comes from
+                the specified priority scheme to determine which style rule
+                applies if more than one rule matches a particular element. This
+                cascading priority scheme is predictable. The CSS specifications
+                are maintained by the World Wide Web Consortium (W3C). Internet
+                media type (MIME type) text/css is registered for use with CSS
+                by RFC 2318 (March 1998). The W3C operates a free CSS validation
+                service for CSS documents.[5] In addition to HTML, other markup
+                languages support the use of CSS including XHTML, plain XML,
+                SVG, and XUL. CSS is also used in GTK widget toolkit.
+              </p>
+              <img
+                class="tengah"
+                src="gambar2.png"
+                alt="Gambar 2"
+                width="400"
+                height="" />
+            </article>
+          </section>
+          <section id="section3">
+            <form onsubmit="submitForm()">
+              <h3>Comment About Website</h3>
+              <div>
+                <label for="Nama">Name</label>
+                <input type="text" id="Nama" placeholder="Anisya" required />
+              </div>
+              <div>
+                <label for="Email">Email</label>
+                <input
+                  type="Email"
+                  id="Email"
+                  placeholder="anisya@gmail.com"
+                  required />
+              </div>
+              <div>
+                <label for="Comment">Comment</label>
+                <textarea
+                  name="Coment"
+                  id="Comment"
+                  cols="30"
+                  rows="10"
+                  placeholder="Comment"
+                  required></textarea>
+              </div>
+              <input type="submit" value="Kirim Pesan" />
+            </form>
+            <script src="script.js"></script>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Anisya Indra Wijaya Copyright @2023</p>
+    </footer>
+  </body>
+</html>
